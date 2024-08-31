@@ -21,7 +21,8 @@ void perProject(float p_x, float p_y, float p_z, float& x_proj, float& y_proj) {
 
 int main()
 {
-   
+
+    // Other Method
 
     // Define the coordinates
    /* float x = 2.0f;
@@ -52,7 +53,7 @@ int main()
 
     for (int i = 0; i < 8; ++i) {
         // Divide the x and y coordinates by the z coordinate to 
-        // project the point onto the canvas
+        //oject the point onto the  prcanvas
         float x_proj = corners[i][0] / -corners[i][2];
         float y_proj = corners[i][1] / -corners[i][2];
         float x_proj_remap = (1 + x_proj) / 2;
